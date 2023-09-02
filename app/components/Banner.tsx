@@ -23,9 +23,11 @@ const Banner = () => {
         {""}
     </p>
 
-    <button className="w-52 h-12 text-sm font-titleFont border border-textGreen border-textGreen-600 text-textGreen tracking-wide hover:bg-hoverColor duration-300">
+    <a href="assets/resume.pdf" target='_blank'>
+            <button className="w-52 h-12 text-sm font-titleFont border border-textGreen border-textGreen-600 text-textGreen tracking-wide hover:bg-hoverColor duration-300">
         <span>My Resume</span>
     </button>
+    </a>
 
 
   </section>
