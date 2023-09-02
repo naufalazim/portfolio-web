@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import LeftSide from './components/LeftSide'
 import RightSide from './components/RightSide'
 import Banner from './components/Banner'
+import About from './components/About'
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
 
         <div className="h-[88vh] w-full mx-auto p-4">
             <Banner />
-            {/* <About /> */}
+            <About />
             {/* <Experience /> */}
             {/* <Project /> */}
             {/* <Album /> */}
