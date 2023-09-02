@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Navbar from './components/Navbar'
+import LeftSide from './components/LeftSide'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <Navbar />
 
       <div>
-        LeftSide
+        <LeftSide />
       </div>
 
       <div>
