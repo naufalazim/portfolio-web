@@ -14,6 +14,7 @@ import Image from 'next/image'
 import SectionTitle from './SectionTitle'
 import {BiRightArrow} from 'react-icons/bi'
 import {BiLeftArrow} from 'react-icons/bi'
+import LazyLoad from 'react-lazy-load';
 
 const Album = () => {
 
@@ -37,27 +38,39 @@ const Album = () => {
     >
 
       <SwiperSlide >
+        <LazyLoad>
         <Image src={Album2} alt="album1" />
+        </LazyLoad>
       </SwiperSlide>
 
       <SwiperSlide>
+        <LazyLoad>
         <Image src={Album3} alt="album1" />
+        </LazyLoad>
       </SwiperSlide>
 
       <SwiperSlide>
+        <LazyLoad>
         <Image src={Album1} alt="album1" />
+        </LazyLoad>
       </SwiperSlide>
 
       <SwiperSlide>
+        <LazyLoad>
         <Image src={Album4} alt="album1" />
+        </LazyLoad>
       </SwiperSlide>
 
       <SwiperSlide>
+        <LazyLoad>
         <Image src={Album5} alt="album1" />
+        </LazyLoad>
       </SwiperSlide>
 
       <SwiperSlide>
+        <LazyLoad>
         <Image src={Album6} alt="album1" />
+        </LazyLoad>
       </SwiperSlide>
 
       <div className='flex items-center justify-center mt-10 text-textGreen text-xl'>
