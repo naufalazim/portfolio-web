@@ -6,6 +6,6 @@ import Album3 from './images/album3.jpg';
 import Album4 from './images/album4.jpg';
 import Album5 from './images/album5.jpg';
 import Album6 from './images/album6.jpg';
+import Project1 from './images/pitstops.png';
 
-
-export {Logo, profileImg, Album1, Album2, Album3, Album4, Album5, Album6};
+export {Logo, profileImg, Album1, Album2, Album3, Album4, Album5, Album6, Project1};

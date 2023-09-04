@@ -6,6 +6,7 @@ import Banner from './components/Banner'
 import About from './components/About'
 import Experience from './components/Experience'
 import Album from './components/Album'
+import Project from './components/Project'
 
 export default function Home() {
   return (
