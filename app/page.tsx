@@ -15,7 +15,7 @@ export default function Home() {
     <>
     
     <main className='w-full h-screen font-bodyFont bg-bodyColor 
-    text-textLight overflow-x-hidden overflow-y-scroll'>
+    text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20s'>
       
       <Navbar />
 

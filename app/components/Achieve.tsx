@@ -1,10 +1,14 @@
 "use client"
 import React, { useState } from 'react'
 import AchieveCard from './AchieveCard'
+import SectionTitle from './SectionTitle';
 
 const Achieve = () => {
     const [showMore, setShowMore] = useState(false);
-  return (
+  return  <section id='project' className=''>
+
+    {/* <SectionTitle title='My Project I Worked On' titleNo='03' /> */}
+
     <div className='max-w-contentComtainer mx-auto px-20 py-24'>
         <div className='w-full flex flex-col items-center'>
             
@@ -94,7 +98,10 @@ const Achieve = () => {
             }
         </div>
     </div>
-  )
+
+
+  </section>
+  
 }
 
 export default Achieve
