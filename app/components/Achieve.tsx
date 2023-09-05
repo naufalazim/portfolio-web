@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from 'react'
 import AchieveCard from './AchieveCard'
-import {motion} from 'framer-motion'
 
 const Achieve = () => {
     const [showMore, setShowMore] = useState(false);
@@ -44,44 +43,29 @@ const Achieve = () => {
 
                 showMore && (
                     <>
-            <motion.div
-            initial={{opacity:0}}
-            whileInView={{opacity:1}}
-            transition={{duration:0.9}}
-            >
-            <AchieveCard   
-            title="CryptoBank Java"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
-            link="https://github.com/naufalazim/CryptoCurrencyBank"
-            />
-            </motion.div>
 
-            <motion.div
-            initial={{opacity:0}}
-            whileInView={{opacity:1}}
-            transition={{duration:0.9}}
-            >
-            <AchieveCard   
-            title="CryptoBank Java"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
-            link="https://github.com/naufalazim/CryptoCurrencyBank"
-            />
-            </motion.div>
 
-            <motion.div
-            initial={{opacity:0}}
-            whileInView={{opacity:1}}
-            transition={{duration:0.9}}
-            >
             <AchieveCard   
             title="CryptoBank Java"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
             listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
             link="https://github.com/naufalazim/CryptoCurrencyBank"
             />
-            </motion.div>
+
+            <AchieveCard   
+            title="CryptoBank Java"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
+            link="https://github.com/naufalazim/CryptoCurrencyBank"
+            />
+
+            <AchieveCard   
+            title="CryptoBank Java"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
+            link="https://github.com/naufalazim/CryptoCurrencyBank"
+            />
+
 
              </>
 
