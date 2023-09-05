@@ -7,6 +7,8 @@ import About from './components/About'
 import Experience from './components/Experience'
 import Album from './components/Album'
 import Project from './components/Project'
+import Achieve from './components/Achieve'
+import Contact from './components/Contact'
 
 export default function Home() {
   return (
@@ -26,8 +28,9 @@ export default function Home() {
             <About />
             <Experience />
             {/* <Project /> */}
+            <Achieve />
             <Album />
-            {/* Contact */}
+            <Contact />
             {/* Footer */}
         </div>
 
