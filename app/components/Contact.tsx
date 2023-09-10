@@ -7,7 +7,7 @@ const Contact = () => {
   id='contact'
   className='max-w-containerxs mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'>
   
-  <SectionTitle title='Contact Me' titleNo='04' />
+  {/* <SectionTitle title='Contact Me' titleNo='04' /> */}
 
   <h2 className='font-titleFont text-5xl font-semibold mt-10'>Get In Touch</h2>
 
