@@ -43,6 +43,14 @@ const Silverlake = () => {
                 Played a pivotal role in designing and implementing highly efficient database schemas, significantly enhancing data storage and retrieval processes.
             </li>
 
+
+            <li className='text-base flex gap-2 text-textDark'>    
+                <span>
+                    <BiSolidRightArrow className=" text-textGreen mt-1" />
+                </span>
+                Tech Stacks: Java 11, Spring Boot, Spring Batch, MySQL, TIDB, Gitlab, Kafka, Jenkins, Confluence
+            </li>
+
          
         </ul>
     </div>
