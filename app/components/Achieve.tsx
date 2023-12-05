@@ -23,24 +23,24 @@ const Achieve = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10'>
 
             <AchieveCard   
-            title="CryptoBank Java"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
+            title="PITSTOPS"
+            des="PETRONAS Integrated Shutdown Turnaround Outage (STO) Planning & Execution Solution."
+            listItem={['ASP.NET', 'Angular', 'MySQL', 'Azure DevOps']}
+            link="https://pitstops.petronas.com/"
+            />
+
+            <AchieveCard   
+            title="Möbius"
+            des="The Möbius platform contains everything you would expect from a newly designed banking platform – cloud-ready, API-based, customer-centric and ready for the emerging financial eco-systems and market-places."
+            listItem={['Java 11', 'Spring Boot', 'Spring Batch', 'TiDB', 'Jenkins', 'Gitlab']}
             link="https://github.com/naufalazim/CryptoCurrencyBank"
             />
 
             <AchieveCard   
-            title="CryptoBank Java"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
-            link="https://github.com/naufalazim/CryptoCurrencyBank"
-            />
-
-            <AchieveCard   
-            title="CryptoBank Java"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
-            link="https://github.com/naufalazim/CryptoCurrencyBank"
+            title="Music Player"
+            des="CRUD Spring Boot app for music player using amazon S3"
+            listItem={['Java', 'Spring Boot', 'Amazon S3']}
+            link="https://github.com/naufalazim/music-player"
             />
 
             {
@@ -50,24 +50,24 @@ const Achieve = () => {
 
 
             <AchieveCard   
-            title="CryptoBank Java"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
-            link="https://github.com/naufalazim/CryptoCurrencyBank"
+            title="Tuah Barbershop"
+            des="Barbershop Application CRUD."
+            listItem={['PHP', 'HTML', 'CSS', 'MySQL', 'Javascript', 'Bootstrap 4.0']}
+            link="hhttps://github.com/naufalazim/tuah-barbershop-app"
             />
 
             <AchieveCard   
             title="CryptoBank Java"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
+            des="Java Bank Application"
+            listItem={['Java', 'Java Gui']}
             link="https://github.com/naufalazim/CryptoCurrencyBank"
             />
 
             <AchieveCard   
-            title="CryptoBank Java"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            listItem={['Java', 'Spring Boot', 'MySQL', 'ReactJS']}
-            link="https://github.com/naufalazim/CryptoCurrencyBank"
+            title="Rick & Morty"
+            des="React Web App"
+            listItem={['React', 'Axios']}
+            link="https://github.com/naufalazim/rick-and-morty"
             />
 
 
