@@ -31,8 +31,8 @@ const Achieve = () => {
 
             <AchieveCard   
             title="Möbius"
-            des="The Möbius platform contains everything you would expect from a newly designed banking platform – cloud-ready, API-based, customer-centric and ready for the emerging financial eco-systems and market-places."
-            listItem={['Java 11', 'Spring Boot', 'Spring Batch', 'TiDB', 'Jenkins', 'Gitlab']}
+            des="The Möbius platform newly designed banking platform – cloud-ready, API-based."
+            listItem={['Java 11', 'Spring Boot', 'Spring Batch']}
             link="https://github.com/naufalazim/CryptoCurrencyBank"
             />
 
