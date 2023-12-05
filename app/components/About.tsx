@@ -11,13 +11,13 @@ const About = () => {
     <div className='flex flex-col lgl:flex-row gap-16'>
     <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
             <p>
-            Back in 2020, <span className='text-textGreen'>I decided to change</span> my university program from E&E Engineering to Computer Science (Cyber-Security) because I found out that I'm more interested in programming and software development.
-            Fast-forward to today, I've had privilege of building software for Petronas as a Software Engineer Trainee. 
-            Futhermore, I achieve first class degree in Computer Science! 
+            My name is <span className='text-textGreen'>Naufal Azim</span>. I <span className='text-textGreen'>code</span> for living. I usually do <span className='text-textGreen'>backend development</span> for web application. 
+            I've been involved for <span className='text-textGreen'>financial</span> and <span className='text-textGreen'>engineering</span> products.
             </p>
 
             <p>
-            My main focus these days is building products for an <span className='text-textGreen'>advertising agency</span>, a <span className="text-textGreen">start-up</span>, a <span className='text-textGreen'>student-led project</span> and <span className='text-textGreen'>huge corporation</span> too. 
+            My main focus these days is building products for an a <span className="text-textGreen">financial</span>, a <span className='text-textGreen'>engineering</span>
+            , a <span className='text-textGreen'>student-led project</span> and <span className='text-textGreen'>huge corporation</span> too. 
             In my free time I always learn new things about technology and software development.
             </p>
 

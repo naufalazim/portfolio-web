@@ -6,7 +6,7 @@ const Banner = () => {
   return <section id="home" 
   className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
 
-    <h3 className='text-lg font-titleFont tracking-wide text-textGreen font-bold'>Hello there, my name is 👋🏻</h3>
+    <h3 className='text-lg font-titleFont tracking-wide text-textGreen font-bold'>Hello, it's me 👋🏻</h3>
 
     <h1 className='text-4xl lgl:text-6xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-500 from-sky-600 font-semibold flex flex-col'>
         Naufal Azim
@@ -19,7 +19,7 @@ const Banner = () => {
 
     <p>
         {""}
-            I'm junior softwar engineer with a passion for creating robust, scalable software solutions. Ex-student from Universiti Pertahanan Nasional Malaysia with a Bachelor's Degree in Computer Science (Cyber-Security).
+            I'm software engineer with a passion for creating robust, scalable software solutions. Ex-student from Universiti Pertahanan Nasional Malaysia with a Bachelor's Degree in Computer Science (Cyber-Security).
         {""}
     </p>
 
