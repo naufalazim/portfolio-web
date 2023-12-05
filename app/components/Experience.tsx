@@ -36,7 +36,7 @@ const Experience = () => {
             <li 
             onClick={handleSilverlake} 
             className={` 
-                ${workPetronas ? 
+                ${workSilverlake ? 
                     " border-l-textGreen text-textGreen ": 
                     " border-l-textDark text-textDark "
                 }  
