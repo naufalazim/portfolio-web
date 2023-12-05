@@ -4,7 +4,7 @@ import {BiSolidRightArrow } from 'react-icons/bi'
 const Silverlake = () => {
   return (
     <div>
-        <h3 className="flex gap-1 font-medium text-xl font-titleFont">Junior Software Engineer @<span className='text-textGreen'>Silverlake Axis</span></h3>
+        <h3 className="flex gap-1 font-medium text-xl font-titleFont">Junior Software Engineer<span className='text-textGreen'>Silverlake Axis</span></h3>
         <p className="text-sm mt-1 font-medium text-textDark">Sept 2023 - Present</p>
 
         <ul className='mt-6 flex flex-col gap-3'>

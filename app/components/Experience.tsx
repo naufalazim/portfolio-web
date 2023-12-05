@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import SectionTitle from './SectionTitle'
 import Petronas from './works/Petronas'
-import DSS from './works/DSS';
 import Silverlake from './works/Silverlake';
 
 const Experience = () => {
@@ -28,8 +27,9 @@ const Experience = () => {
 
         <SectionTitle title='My Experience' titleNo='02' />
 
-    <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
+    <div className='w-full mt-10 flex flex-col md:flex-row gap-6'>
 
+        {/* <ul className='md:w-32 flex flex-col'> */}
         <ul className='md:w-32 flex flex-col'>
             {/* Add Company Title Here:  */}
 
