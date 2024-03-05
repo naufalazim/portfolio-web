@@ -49,29 +49,6 @@ const Album = () => {
         </LazyLoad>
       </SwiperSlide>
 
-      <SwiperSlide>
-        <LazyLoad>
-        <Image src={Album1} alt="album1" />
-        </LazyLoad>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <LazyLoad>
-        <Image src={Album4} alt="album1" />
-        </LazyLoad>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <LazyLoad>
-        <Image src={Album5} alt="album1" />
-        </LazyLoad>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <LazyLoad>
-        <Image src={Album6} alt="album1" />
-        </LazyLoad>
-      </SwiperSlide>
 
       <div className='flex items-center justify-center mt-10 text-textGreen text-xl'>
         <BiLeftArrow /><BiRightArrow />
