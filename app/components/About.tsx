@@ -8,64 +8,73 @@ const About = () => {
   return <section id='about' className='max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8'>
     <SectionTitle title="About Me" titleNo="01" />
 
+    {/* <span className='text-textGreen'></span> */}
+
     <div className='flex flex-col lgl:flex-row gap-16'>
     <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
             <p>
-            My name is <span className='text-textGreen'>Naufal Azim</span>. I <span className='text-textGreen'>code</span> for living. I usually do <span className='text-textGreen'>backend development</span> for web application. 
-            I've been involved for <span className='text-textGreen'>financial</span> and <span className='text-textGreen'>engineering</span> products.
+            My name is <span className='text-textGreen'>Naufal</span> and I am <span className='text-textGreen'>software engineer</span>. 
             </p>
 
             <p>
-            My main focus these days is building products for an a <span className="text-textGreen">financial</span>, a <span className='text-textGreen'>engineering</span>
-            , a <span className='text-textGreen'>student-led project</span> and <span className='text-textGreen'>huge corporation</span> too. 
-            In my free time I always learn new things about technology and software development.
+            I bring <span className='text-textGreen'>full-stack development </span>capabilities to the table, 
+            comfortable working on both <span className='text-textGreen'>server-side</span> and <span className='text-textGreen'>client-side </span>
+             aspects of web applications.
             </p>
 
             <p>
-            And if you`re interested in working together,<span className='text-textGreen'>don`t hesitate to reach out!</span> I`m always happy to chat with fellow tech enthusiasts. 
+            I leverage my diverse experience across <span className='text-textGreen'>financial industry </span>and <span className='text-textGreen'>engineering industry </span> 
+            to empower users and organizations.
             </p>
+
+            <p>
+            My passion for <span className='text-textGreen'>continuous learning </span>keeps me at the forefront of technology, ready to tackle any challenge
+            </p>
+
+      
+
 
             <p>Here a few <span className='text-textGreen'>technologies</span> I have been working recently:</p>
             <ul className='max-w-[450] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6'>
                 <li className='flex items-center gap-2'> 
                 <span className='text-textGreen'><MdGames /></span>
-                Java
+                Spring Frameworks (JAVA)
                 </li>
 
                 <li className='flex items-center gap-2'> 
                 <span className='text-textGreen'><MdGames /></span>
-                C#
+                ASP.NET (C#)
                 </li>
 
                 <li className='flex items-center gap-2'> 
                 <span className='text-textGreen'><MdGames /></span>
-                TypeScript
+                Angular (TYPESCRIPT)
                 </li>
 
                 <li className='flex items-center gap-2'> 
                 <span className='text-textGreen'><MdGames /></span>
-                Javascript (ES6+)
+                NextJS
                 </li>
 
                 <li className='flex items-center gap-2'> 
                 <span className='text-textGreen'><MdGames /></span>
-                ASP.NET
+                Docker
                 </li>
 
                 <li className='flex items-center gap-2'> 
                 <span className='text-textGreen'><MdGames /></span>
-                Nextjs
+                Jenkins
                 </li>
 
                 <li className='flex items-center gap-2'> 
                 <span className='text-textGreen'><MdGames /></span>
-                Angular
+                MySQL
                 </li>
 
 
                 <li className='flex items-center gap-2'> 
                 <span className='text-textGreen'><MdGames /></span>
-                Spring Boot
+                Azure DevOps
                 </li>
             </ul>
         </div>
